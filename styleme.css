@@ -1,0 +1,31 @@
+body {
+    background-color:#5c5447;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.highlightedText {
+    color: aqua;
+}
+ul li, p, header {
+    color: white;
+}
+.titleStyle {
+    font-size: 32px;
+    font-weight: bold;
+    color: #9ec1f5;
+}
+
+h1 {
+    color: #9ec1f5;
+}
+
+.footerStyle{
+    text-align: end;
+}
+
+.columnStyle{
+    width: 400px;
+}
+
+.columnStyle1{
+    width: 100px;
+}

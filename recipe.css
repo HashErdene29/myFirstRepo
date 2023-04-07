@@ -1,0 +1,83 @@
+body{
+    max-width: 1024px;
+    max-height: 768px;
+    font-family: Georgia, Garamond;
+    color: #404040;
+    font-size: 11pt;
+    margin: 0 auto;
+    background-image: url("/recipeImages/silverware.jpg");
+    background-repeat: no-repeat;
+}
+
+.titleStyle {
+    font-family: Lucida Sans Unicode, Helvetica, Arial;
+    font-weight: bold;
+    color: #A4A400;
+    background-color: #F0F0F0;
+    text-decoration: underline;
+}
+
+.mainTitle {
+    font-size: 22pt;
+    text-align: center;
+}
+
+.subTitle{
+    font-size: 18pt;
+    text-align: start;
+}
+
+.commentStyle {
+    font-family:'Lucida Console';
+    font-style: italic;
+    margin: 0 20px;
+    background-color: #A4A400;
+}
+
+.columnStyle{
+    width: 280px;
+}
+
+
+a {
+    color: #A4A400;
+    text-decoration: underline;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 100px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -40px;
+    right: -40px;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  .deletedWord {
+    text-decoration: line-through;
+  }
+
+  .monospaceWord {
+    font-family:'Lucida Console';
+  }
+
+  .orderSubtitle{
+    background-color: #FFFFA8;
+  }

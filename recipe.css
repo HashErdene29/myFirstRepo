@@ -62,7 +62,7 @@ a {
     /* Position the tooltip */
     position: absolute;
     z-index: 1;
-    top: -40px;
+    top: -25px;
     right: -40px;
   }
   

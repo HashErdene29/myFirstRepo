@@ -1,0 +1,111 @@
+body {
+    font-family: "Open Sans" sans-serif;
+    background-color: #f3f3f3;
+}
+
+.headerTitle{
+    font-size: 16px;
+    color: white;
+    margin-right: 15px;
+}
+
+.navbar {
+    background-color: #40abe9 !important;
+}
+
+.nav-link {
+    font-size: 15px !important;
+    margin: 0 25px 0 0;
+    color: #c1e6f8 !important;
+}
+
+@media only screen and (min-width: 992px) {
+    .navbar .navbar-nav .nav-item .nav-link {
+      padding: 0 0.5em;
+    }
+    .navbar .navbar-nav .nav-item:not(:last-child) .nav-link {
+      border-right: 2px solid white;
+      padding-right: 30px;
+    }
+    .navbar .navbar-nav .nav-item:first-child .nav-link {
+      border-left: 2px solid white;
+      padding-left: 30px;
+    }
+  }
+
+.helloText {
+    color: white;
+    margin: 0 20px 0 0;
+    text-align: center;
+    line-height: 35px;
+}
+
+.signinbtn {
+    color: #495662 !important;
+    background-color: #e6e9ed !important;
+}
+
+.sectionStyle{
+    background-color: #374777;
+    height: 200px;
+}
+.sectionTitle {
+    font-size: 42px;
+    color: white;
+    text-align: center;
+    line-height: 200px;
+}
+
+.sectionText{
+    font-weight: bold;
+}
+
+.mainContent{
+    background-color: #f3f3f3;
+}
+
+.firstRow {
+    margin: 48px 0 50px 0;
+}
+
+.rowTitle{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.subtext {
+    color: #8e969d;
+}
+
+.subfont {
+    font-size: 14px;
+
+}
+
+ .textRight{
+    text-align: end;
+    font-weight: 700;
+ }
+
+ .formTitle {
+    font-size: 28px;
+ }
+
+ .dropdownbtn .btn.show {
+    color: black;
+    background-color: white !important;
+ }
+
+ .dropdownbtn .btn:hover {
+    color: black;
+    background-color: white !important;
+ }
+
+ .text-left {
+    text-align:start;
+ }
+
+ .atag{
+    text-decoration: none;
+    font-weight: lighter;
+}

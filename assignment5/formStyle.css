@@ -109,36 +109,3 @@ body {
     text-decoration: none;
     font-weight: lighter;
 }
-
-.btngroup {
-    padding-right: 20px;
-}
-
-.mr-1{
-    margin-right: 30px;
-}
-
-.btn-outline-warning {
-    --bs-btn-hover-color: white !important;
-    --bs-btn-active-color: white !important;
-}
-
-.btn-outline-info {
-    --bs-btn-hover-color: white !important;
-    --bs-btn-active-color: white !important;
-}
-
-.footerStyle {
-    background-color: #e6e6e6;
-    text-align: end;
-    height: 50px;
-    padding: 9px 0 0 0;
- }
-
-.columnStyle{
-    width: 400px;
-}
-
-.columnStyle1{
-    width: 100px;
-}

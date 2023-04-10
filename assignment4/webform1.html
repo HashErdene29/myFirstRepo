@@ -19,23 +19,6 @@
                 <nav class="navbar navbar-expand-lg">
                     <div class="container-fluid">
                         <a class="navbar-brand" href="#"><span class="headerTitle">MUM Golden Dome Market ::: SRM System</span></a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon">fdsgdgshg</span>
-                        </button>
-                        <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="#">Products</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Supplier</a>
-                                </li>
-                            </ul>
-                            <form class="d-flex">
-                                <p class="helloText">Hello!</p>
-                                <button class="btn signinbtn" type="submit">Sign In</button>
-                              </form>
-                        </div> -->
                     </div>
                 </nav>
             </header>
@@ -44,21 +27,21 @@
                     <p class="rowTitle m-0">Sign in</p>
                     <form action="webform2.html" method="get">
                         <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                            <label for="exampleFormControlInput1" class="form-label" id="emailLabel">Email address</label>
                             <input type="email" class="form-control" id="email" name="email" 
                             placeholder="Enter email"
                             pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
                             <span class="subtext">We will never share your email with anyone else.</span>
                         </div>
                         <div class="mb-3">
-                            <label for="exampleFormControlTextarea1" class="form-label">Password</label>
+                            <label for="exampleFormControlTextarea1" class="form-label" id="passwordLabel">Password</label>
                             <input type="password" class="form-control" id="password" name="password"
                             pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" placeholder="Enter password" 
                             required
                             title="Password is at least 10 characters length and contain at least one number, one uppercase letter and lowercase letter.">
                         </div>
                         <div class="mb-3">
-                            <label for="exampleFormControlTextarea1" class="form-label">Enter url</label>
+                            <label for="exampleFormControlTextarea1" class="form-label" id="urlLabel">Enter url</label>
                             <input type="text" class="form-control" id="url" name="url"
                             pattern="https?://.+" placeholder="Enter url" 
                             title="Please starts with http:// or https://"

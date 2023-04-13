@@ -1,0 +1,8 @@
+Hello Professor,
+Finished assignment 5.
+
+1. Attached zip file containing the source code.
+2. URL of the published webpage on github.io
+https://hasherdene29.github.io/myFirstRepo
+
+It took two hours to complete just like the last assignment. I had little confusion to complete this assignment, reagrding reduce function. But after reading lecture 5 again, It became completely understandable.

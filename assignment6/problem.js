@@ -26,15 +26,15 @@
 // x = 5;
 // document.write(myFunction());
 
-var foo = 1;
-function bar(){
-    document.write(foo);
-    if(!foo) {
-        var foo = 10;
-    }
-    alert(foo);
-}
-bar();
+// var foo = 1;
+// function bar(){
+//     document.write(foo);
+//     if(!foo) {
+//         var foo = 10;
+//     }
+//     alert(foo);
+// }
+// bar();
 
 
 // function makeArmy(){
@@ -51,3 +51,12 @@ bar();
 // }
 // let army = makeArmy();
 // army[0];
+
+let user = {
+    firstName: "John",
+    sayHi(){
+        console.log(`Hello, ${this.firstName}`);
+    }
+};
+// user.sayHi();
+setTimeout(() => user.sayHi.call(user), 2000);

@@ -6,7 +6,7 @@ class Employee {
 
     constructor(fname, s, date){
         this.#fullName = fname;
-        this.salary = s;
+        this.#setSalary(s);
         this.hireDate = date;
         Employee.intCounter();
     }
@@ -14,14 +14,11 @@ class Employee {
     calcSalary(){return this.salary;}
     static intCounter(){Employee.counter += 1;}
 
-    #setSalary(s){this.salary = s;}
+    #setSalary(s){this.salary = s;} //private instance method
 
     get name(){return this.#fullName;}
     set name(n){this.#fullName = n;}
 }
-
-let emp = new Employee("Jane Doe", 5000, new Date("03-15-2023"));
-console.log(emp);
 
 class Manager extends Employee {
     bonus = 0;
@@ -36,6 +33,4 @@ class Manager extends Employee {
     }
 }
 
-let man1 = new Manager("John Doe", 6000, new Date("04-17-2020"), 0.05);
-console.log(man1);
-console.log(man1.calcSalary());
+export { Employee, Manager };

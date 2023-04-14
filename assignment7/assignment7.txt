@@ -1,0 +1,5 @@
+Hello Professor,
+Finished assignment 7.
+
+It took about an hour to finish the assignment. I had little bit of trouble understanding the difference between call, bind, apply. However, after finish the
+2 exercises, the difference became more clear.

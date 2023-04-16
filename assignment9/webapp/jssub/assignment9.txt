@@ -1,0 +1,5 @@
+Dear Professor,
+
+I was able to finish lab 9 an hour or less. I was familiar with inheritance
+and mutators due to FPP. Therefore, it wasn't very dificult, all I needed to
+review was its syntax and its differences between the languages. The concept of IS-A was the same.

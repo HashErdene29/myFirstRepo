@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HolyCross Medical Center - Home</title>
+    <title>Shopping cart</title>
    
     <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/united/bootstrap.min.css" rel="stylesheet" integrity="sha384-bzjLLgZOhgXbSvSc5A9LWWo/mSIYf7U7nFbmYIB2Lgmuiw3vKGJuu+abKoaTx4W6" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main-styles.css">
@@ -15,7 +15,7 @@
     <header>
         <!-- Start Navbar -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-info">
-            <a style="padding-right: 2em;" class="navbar-brand" href="index.html">HolyCross Medical Center</a>
+            <a style="padding-right: 2em;" class="navbar-brand" href="index.html">Shopping cart</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
                     aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -24,10 +24,10 @@
             <div class="collapse navbar-collapse" id="navbarColor01">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active" style="border-left: white 1px solid; padding-left: 2em; padding-right: 2em;">
-                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" href="index.html">Book List</a>
                     </li>
                     <li class="nav-item" style="border-left: white 1px solid; padding-left: 2em; padding-right: 2em;">
-                        <a class="nav-link" href="patients.html">Patients</a>
+                        <a class="nav-link" href="addBook.html">Add Book</a>
                     </li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
@@ -43,40 +43,24 @@
         <div style="padding-top: 1em;" class="container">
             <!-- main content here -->
             <h3>
-                Welcome to HolyCross<br>
-                <span id="spnSlogan">We care. God heals.</span>
+                Shopping cart<br>
+                <span id="spnSlogan">Save money. Live better.</span>
             </h3>
             <hr>
-            <div id="divBannerImage">
+            <!-- <div id="divBannerImage">
                 <img style="width: 100%;height: 176px;" src="images/hcmc-photo2.jpg" alt="Photo of HolyCross Medical Center">
-            </div>
-            <div class="row">
-                <div id="divAboutUs" class="col-md-8">
-                    <section>
-                        <h5>About Us</h5>
-                        <article>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, odit vero expedita quam veniam sed dignissimos, consectetur libero autem sequi reiciendis maiores ullam est aliquid exercitationem praesentium!</p>
-                            <p>Ex deserunt necessitatibus nobis voluptate quos quibusdam velit, beatae quis maiores earum libero in voluptatum possimus.</p>
-                        </article>
-                    </section>
-                </div>
-                <div id="divAddress" class="col-md-4">
-                    <section>
-                        <h5>Our Address and Contact Information</h5>
-                        <article>
-                            <p>
-                                1234 HolyCross Avenue<br>
-                                Great Medical City<br>
-                                IA, 52556-0001
-                            </p>
-                            <p>
-                                Telephone: (641) 000-0001<br>
-                                Facsimile: (123) 456-7890<br>
-                                Email: <a href="mailto:info@hcmc.org">info@hcmc.org</a>
-                            </p>
-                        </article>
-                    </section>
-                </div>
+            </div> -->
+            <div style="margin-top: 1em;" id="divPatientsList" style="font-size: 1em">
+                <table class="table table-striped" id="tableList">
+                    <thead>
+                            <th scope="col">Book ID No</th>
+                            <th scope="col">Title</th>
+                            <th scope="col">Description</th>
+                            <th scope="col">Price</th>
+                            <th scope="col">Actions</th>
+                    </thead>
+                    <tbody id="tbodyPatientsList"></tbody>
+                </table>
             </div>
 
         </div>
@@ -84,11 +68,22 @@
     <!-- End main-content -->
 
     <!-- Start footer -->
-    <footer>
-        <div>
-            <span style="margin-left: 1em;">Khash Erdene Baasandorj ::: CS472-WAP</span>
-            <span style="float: right;margin-right: 1em;">HCMC &copy; March 2022</span>
+    
+    <footer class="footerStyle fixed-bottom">
+        <div class="row m-0 p-0">
+            <div class="col m-0">
+                <p class="float-left ml-1">Khash Erdene Baasandorj - 615722<br />  </p>
+            </div>
+            <div class="col m-0">
+                <a href="https://validator.w3.org/check?uri=referer">
+                    <img src="http://mumstudents.org/cs472/2014-09/images/w3c-html.png" alt="html-logo"/>
+                </a>
+                <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                    <img src="https://mumstudents.org/cs472/2014-09/images/w3c-css.png" alt="html-logo"/>
+                </a>
+            </div>
         </div>
     </footer>
 </body>
+<script src="./js/main.js" ></script>
 </html>

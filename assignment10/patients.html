@@ -55,8 +55,7 @@
                         <div class="col-md-12">
                             <div class="form-group">
                                 <label for="patientIdNumber">*Patient ID No:</label>
-                                <input pattern="(P|EP)-\d{3}-\d{6}" class="form-control" type="text" name="patientIdNumber" id="patientIdNumber" placeholder="EP-XXX-XXXXXX"  autofocus> 
-                                <!-- required -->
+                                <input pattern="(P|EP)-\d{3}-\d{6}" class="form-control" type="text" name="patientIdNumber" id="patientIdNumber" placeholder="EP-XXX-XXXXXX" required autofocus> 
                                 <small class="form-text text-muted">Enter the Patient ID Number, in the specified format</small>
                             </div>
                         </div>
@@ -65,8 +64,7 @@
                         <div class="col-md-4">
                             <div class="form-group">
                                 <label for="firstName">*First Name:</label>
-                                <input class="form-control" type="text" name="firstName" id="firstName" placeholder="Enter First Name">
-                                 <!-- required -->
+                                <input class="form-control" type="text" name="firstName" id="firstName" placeholder="Enter First Name" required>
                                 <small class="form-text text-muted">Enter the Patient's First Name</small>
                             </div>
                         </div>
@@ -79,8 +77,7 @@
                         <div class="col-md-4">
                             <div class="form-group">
                                 <label for="lastName">*Last Name:</label>
-                                <input class="form-control" type="text" name="lastName" id="lastName" placeholder="Enter Last Name">
-                                 <!-- required -->
+                                <input class="form-control" type="text" name="lastName" id="lastName" placeholder="Enter Last Name" required>
                                 <small class="form-text text-muted">Enter the Patient's Last Name</small>
                             </div>
                         </div>                        
@@ -89,16 +86,14 @@
                         <div class="col-md-4">
                             <div class="form-group">
                                 <label for="dateOfBirth">*Date of birth:</label>
-                                <input class="form-control" type="date" name="dateOfBirth" id="dateOfBirth">
-                                 <!-- required -->
+                                <input class="form-control" type="date" name="dateOfBirth" id="dateOfBirth" required>
                                 <small class="form-text text-muted">Enter the Patient's Date of birth</small>
                             </div>
                         </div>                        
                         <div class="col-md-4">
                             <div class="form-group">
                                 <label for="ddlDepartment">*Department:</label>
-                                <select class="form-control" id="ddlDepartment" name="ddlDepartment">
-                                     <!-- required -->
+                                <select class="form-control" id="ddlDepartment" name="ddlDepartment" required>
                                     <option value="">Select...</option>
                                     <option value="Cardiology">Cardiology</option>
                                     <option value="Ear, Nose and Throat">Ear, Nose and Throat</option>
@@ -112,13 +107,11 @@
                             <label>*Is this an Out-patient?</label><br>
                             <div class="form-group">
                                 <div class="custom-control custom-radio custom-control-inline">
-                                    <input type="radio" name="radioIsOutPatient" id="radioIsOutPatientYes" class="custom-control-input" value="Yes">
-                                     <!-- required -->
+                                    <input type="radio" name="radioIsOutPatient" id="radioIsOutPatientYes" class="custom-control-input" value="Yes" required>
                                     <label for="radioIsOutPatientYes" class="custom-control-label">Yes</label>
                                 </div>
                                 <div class="custom-control custom-radio custom-control-inline">
-                                    <input type="radio" name="radioIsOutPatient" id="radioIsOutPatientNo" class="custom-control-input" value="No">
-                                     <!-- required -->
+                                    <input type="radio" name="radioIsOutPatient" id="radioIsOutPatientNo" class="custom-control-input" value="No" required>
                                     <label for="radioIsOutPatientNo" class="custom-control-label">No</label>
                                 </div>
                             </div>

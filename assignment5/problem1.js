@@ -140,13 +140,11 @@ function findSecondBiggest(a){
     return secondmax;
 }
 console.log("----------------Problem 12---------------- \nSecond largest number -> ", findSecondBiggest([2, 5, 8, 9, 7, 6]) );
-
 // 13. Write a function named printFibo, that takes as input, a given length, n, and any two starting numbers a and b,
 // and it prints-out the Fibonacci sequence, e.g. (0, 1, 1, 2, 3, 5, 8, 13, 21, 34,…) of the given length, beginning with
 // a and b. (e.g. printFibo(n=1, a=0, b=1), prints-out: "0", as output; printFibo(n=2, a=0, b=1), prints-out: "0, 1", as
 // output; printFibo(n=3, a=0, b=1), prints-out: "0, 1, 1", as output; printFibo(n=6, a=0, b=1), prints-out: "0, 1, 1, 2,
 // 3, 5", as output; and printFibo(n=10, a=0, b=1), prints-out: "0, 1, 1, 2, 3, 5, 8, 13, 21, 34", as output).
-
 function printFibo(n, a, b) {
     let result = [a, b]; 
   
@@ -156,20 +154,16 @@ function printFibo(n, a, b) {
 
     return result;
 }
-
 console.log("----------------Problem 13---------------- \nFibonacci sequence ", printFibo(10, 0, 1));
-
 // 14. Use Array Methods: filter, map, reduce, etc to implement functions below:
 // // 1. Create a function using function declaration named sum with one parameter of Array type, the returned
 // // result is the sum of all elements which are greater than 20.
 // // 2. Create a function using function expression named getNewArray with one parameter of String Array,
 // // return a new array which contains all string, length is greater than and equal to 5, and contains letter ‘a’.
-
 function sumt(a) {
     let result =  a.filter(num => num > 20).reduce((acc, curr) => acc + curr, 0);
     return result;
 }
-
 function getNewArray(a) {
     let result = a.filter(element => element.length >= 5 && element.includes('a'));
     return result;

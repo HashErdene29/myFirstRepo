@@ -1,0 +1,15 @@
+Question 2
+1. Explain why do we want sometimes to use setImmediate instead of using setTimeout?
+Because if you want some functions in the file executes as soon as possible, without being delayed by other tasks in the event loop, you should use setImmediate function instead of setTimeout function.
+They are both functions that allow you to execute functions after certain amount of time. 
+Differences are : setImmediate executes functions right after the current event loop iteration, meanwhile setTimeout schedules the function to be executed after a certain delay. Also setImmediate functions priority higher than setTimeout function. If these are both in the file, setImmediate function will executes before setTimeout function.
+
+2. Explain the difference between process.nextTick and setImmediate?
+Same as before, these two allow you to schedule a function after certain time. Main differences are process.nextTrick queues the function to be executed immediately after the current function completes, but before the event loop continues. It means that if you call process.nextTrick multiple times within function, all of the queued function will be executed before the event loop continues to process the other tasks. It is useful if you need to ensure that certain code is executed before any other I/O operations or timers processed.
+On the other hand setImmediate queues the functions to be executed in the next iteration of the event loop, after any I/O operations or timers are scheduled for the current or previous iterations.
+process.nextTrick callbacks are executed before the setImmediate callbacks.
+
+3. Does Node.js has window object?
+No, Node js does not have a window object. Node js is a server side Javascript runtime that outside of a browser context and does not have a browser window. 
+Instead, Node js has its own set of global objects and APIs that are specific to sercer side programming, such as the process object, the buffer object, and the fs modile for working with the file system.
+However, Node js does provide a global object called global. But the global object is not equivalent to the window object in web browser.
